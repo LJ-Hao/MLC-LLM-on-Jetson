@@ -1,4 +1,4 @@
-# Llama with MLC on Jetson Nano
+# Llama with MLC on Jetson Orin NX 16GB
 
 ## Pareper environment
 ```shell
@@ -58,6 +58,6 @@ cd /data/MLC-LLM-on-Jetson python3 Llama-2-7b-chat-hf-q4f16_ft.py
 here is the result:
 ![Result](./source/Llama-2-7b-chat-hf-q4f16_ft.png)
 you can see with quanifing with MLC, Jetson Nano 16GB can run
-## Video of running Llama with MLC on Jetson Nano:
+## Video of running Llama with MLC on Jetson Orin NX 16GB:
  
  comming soon

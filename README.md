@@ -48,7 +48,7 @@ python3 -m mlc_llm.build \
 cd /data/MLC-LLM-on-Jetson python3 Llama-2-7b-chat-hf.py 
 ```
 here is the result:
-![Result](./source/Llama-2-7b-chat-hf.png)
+![Result](./source/Llama-2-7b-chat-hf.png)https://github.com/dusty-nv/jetson-containers
 you can see without quanifing with MLC, Jetson Nano 16GB can load the model but cant not run
 
 ### second : run Llama with quanifing with MCL
@@ -59,5 +59,8 @@ here is the result:
 ![Result](./source/Llama-2-7b-chat-hf-q4f16_ft.png)
 you can see with quanifing with MLC, Jetson Nano 16GB can run
 ## Video of running Llama with MLC on Jetson Orin NX 16GB:
- 
- comming soon
+
+[![Alt text](https://img.youtube.com/vi/c2zbIwrOYyk/0.jpg)](https://www.youtube.com/watch?v=c2zbIwrOYyk)
+
+## Thanks for [MLC LLM](https://github.com/mlc-ai/mlc-llm) and [dusty](https://github.com/dusty-nv/jetson-containers).
+

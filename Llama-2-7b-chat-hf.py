@@ -1,6 +1,6 @@
 import torch
 from torch import cuda
-from transformers import LlamaTokenizerFast, pipeline,  LlamaForCausalLM, AutoTokenizer, AutoModelForCausalLM
+from transformers import  AutoTokenizer, AutoModelForCausalLM
 import time
 
 model_dir = "/data/models/mlc/dist/models/Llama-2-7b-chat-hf"
@@ -17,6 +17,9 @@ def chat_with_llama(prompt):
     return response
 
 while True:
-    prompt = input("You: ")
-    response = chat_with_llama(prompt)
-    print("Llama:", response)
+    try:
+        prompt = input("You: ")
+        response = chat_with_llama(prompt)
+        print("Llama:", response)
+    except KeyboardInterrupt:
+        break

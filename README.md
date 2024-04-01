@@ -37,7 +37,7 @@ python3 -m mlc_llm.build \
 ### thrid step: Run and enter docker
 ```shell
 ./run.sh <YOUR IMAGE NAME> 
-#for me dustynv/mlc:51fb0f4-builder-r35.4.1 check ruesult of first step
+#for me dustynv/mlc:51fb0f4-builder-r35.4.1 check result of first step
 ```
 ![Result](./source/docker_run.png)
 
@@ -49,7 +49,7 @@ cd /data/MLC-LLM-on-Jetson python3 Llama-2-7b-chat-hf.py
 ```
 here is the result:
 ![Result](./source/Llama-2-7b-chat-hf.png)
-you can see without quanifing with MLC, Jetson Nano 16GB can not run
+you can see without quanifing with MLC, Jetson Nano 16GB can load the model but cant not run
 
 ### second : run Llama with quanifing with MCL
 ```shell
@@ -60,3 +60,4 @@ here is the result:
 you can see with quanifing with MLC, Jetson Nano 16GB can run
 ## Video of running Llama with MLC on Jetson Nano:
  
+ comming soon

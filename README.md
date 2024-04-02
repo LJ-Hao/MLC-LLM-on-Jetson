@@ -45,7 +45,7 @@ python3 -m mlc_llm.build \
 ### first : run Llama without quanifing with MCL 
 
 ```shell
-cd /data/MLC-LLM-on-Jetson python3 Llama-2-7b-chat-hf.py 
+cd /data/MLC-LLM-on-Jetson && python3 Llama-2-7b-chat-hf.py 
 ```
 here is the result:
 ![Result](./source/Llama-2-7b-chat-hf.png)https://github.com/dusty-nv/jetson-containers
@@ -53,7 +53,7 @@ you can see without quanifing with MLC, Jetson Nano 16GB can load the model but 
 
 ### second : run Llama with quanifing with MCL
 ```shell
-cd /data/MLC-LLM-on-Jetson python3 Llama-2-7b-chat-hf-q4f16_ft.py 
+cd /data/MLC-LLM-on-Jetson && python3 Llama-2-7b-chat-hf-q4f16_ft.py 
 ```
 here is the result:
 ![Result](./source/Llama-2-7b-chat-hf-q4f16_ft.png)

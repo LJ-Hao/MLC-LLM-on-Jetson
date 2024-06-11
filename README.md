@@ -11,7 +11,7 @@ git clone --depth=1 https://github.com/dusty-nv/jetson-containers
 cd jetson-containers pip3 install -r requirements.txt
 ```
 ```shell 
-cd ./data && git clone https://github.com/LJ-Hao/MLC-LLM-on-Jetson-Nano.git && cd ..
+cd ./data && git clone https://github.com/LJ-Hao/MLC-LLM-on-Jetson.git && cd ..
 ```
 ## Install and run contiainer
 
